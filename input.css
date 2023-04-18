@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color:rgb(14, 70, 48);
+    text-shadow: none;
+  }
+  
+  header {
+    background-image: url('../img/vinyl.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color:rgb(236, 243, 241)
+
+    
+  }
+
+  header:hover {
+    text-shadow: 2px 2px 4px #427899e9;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  #intro {
+    background-color: #685c5c8a;
+    padding: 2rem;
+    text-align: center;
+   
+  }
+
+  #intro:visited {
+    text-decoration: none;
+  }
+  
+  #intro h2 {
+    margin-top: 0;
+  }
+  
+  #latest {
+    text-align: center;
+  }
+
+  #latest:visited {
+    text-decoration: none;
+  }
+  
+  #latest ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  #latest ul li {
+    margin: 1rem;
+  }
+  
+  #latest ul li a {
+    display: block;
+    background-color: #eee;
+    color: #333;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  #latest ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+body:visited{
+    text-decoration: none;
+}
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
